@@ -1,4 +1,17 @@
+# _config.yml
 title: "Sustainable Waste Resource Recovery Lab"
 description: "UT Austin | Fariborz Maseeh Department of Civil, Architectural and Environmental Engineering"
-baseurl: ""
-url: "https://vivio-jpg.github.io"
+
+# AcademicPages theme
+remote_theme: academicpages/academicpages.github.io
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Tell the theme where to find your pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
