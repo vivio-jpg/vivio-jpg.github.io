@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Contact
 permalink: /contact/
 ---
@@ -10,6 +10,6 @@ permalink: /contact/
 
 <div class="section">
   <p><strong>Email:</strong> <a href="mailto:xavier.fonoll@utexas.edu">xavier.fonoll@utexas.edu</a></p>
-  <p>Fariborz Maseeh Department of Civil, Architectural and Environmental Engineering  
+  <p>Fariborz Maseeh Department of Civil, Architectural and Environmental Engineering<br>
      The University of Texas at Austin</p>
 </div>
