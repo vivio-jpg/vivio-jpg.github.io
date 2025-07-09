@@ -1,0 +1,29 @@
+- title: "Hydrothermal Liquefaction Feasibility"
+  funding: "DOE"
+  description: >-
+    A life-cycle & techno-economic analysis with GLWA, PNNL, Genifuel, and community
+    partners to evaluate HTL of sewage sludge.
+
+- title: "HTL Aqueous By-product Recovery"
+  funding: "DOE, WRF, GLWA"
+  description: >-
+    Designing anaerobic and chemical processes to recover biogas and ammonia from
+    the HTL-aq stream in simulated WRRF bioreactors.
+
+- title: "PFAS Transformation in HTL"
+  funding: "DOE"
+  description: >-
+    Assessing the fate of PFAS during continuous HTL treatment and tracking PFAS
+    in all effluent streams.
+
+- title: "Glycol Inhibition in Nitrification"
+  funding: "City of Austin"
+  description: >-
+    Using bench-scale reactors to quantify propylene glycol’s impact on nitrifying
+    bacteria.
+
+- title: "Anaerobic Fungi for Lignocellulose"
+  funding: "UT Austin"
+  description: >-
+    Simulating rumen conditions to cultivate anaerobic fungi that break down plant
+    biomass without harsh pretreatments.
