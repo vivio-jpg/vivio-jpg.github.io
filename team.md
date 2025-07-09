@@ -1,25 +1,20 @@
 ---
-layout: single
 title: Team
 permalink: /team/
+layout: single
 ---
 
-<div class="page__header">
-  <h1>Our Team</h1>
-  <p>Meet the researchers driving SWR2L’s mission.</p>
-</div>
+<h2 class="section-title">Meet the Team</h2>
 
-<div class="section">
-  <h2>Dr. Xavier Fonoll Almansa</h2>
-  <p>PI focusing on microbial community engineering and HTL for resource recovery.</p>
-</div>
-
-<div class="section alt">
-  <h2>Xuemei [Last Name]</h2>
-  <p>(Add Xuemei’s bio here.)</p>
-</div>
-
-<div class="section">
-  <h2>Research Manager (GLWA)</h2>
-  <p>(Add details here.)</p>
+<div class="dual-column">
+  <div>
+    ### Dr. Xavier Fonoll Almansa  
+    **Principal Investigator**  
+    Email: [xavier.fonoll@utexas.edu](mailto:xavier.fonoll@utexas.edu)
+  </div>
+  <div>
+    ### Xuemei Lastname  
+    **Postdoctoral Researcher**  
+    (Add bio...)
+  </div>
 </div>
