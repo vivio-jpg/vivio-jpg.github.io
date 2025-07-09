@@ -1,0 +1,88 @@
+/* ─── Junwhan-Lee style overrides ─────────────── */
+
+/* Change site header font & spacing */
+.site-header .site-title {
+  font-family: 'Georgia', serif;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.site-header .site-description {
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+/* Center header & nav */
+.site-header,
+.navigation {
+  text-align: center;
+}
+
+/* Navigation tab style */
+.navigation {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.navigation li a {
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  transition: background 0.2s;
+}
+.navigation li a:hover,
+.navigation li a.active {
+  background: rgba(191,87,0,0.1);
+  color: #BF5700;
+}
+
+/* Hero banner on Home */
+.page-header {
+  background: url('/EER.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 8rem 1rem;
+  position: relative;
+}
+.page-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+.page-header h1,
+.page-header p {
+  position: relative;
+}
+
+/* Section headings */
+h2.section-title {
+  border-bottom: 2px solid #BF5700;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Two‐column layout for About and Team pages */
+.dual-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.dual-column > div {
+  flex: 1 1 300px;
+}
+
+/* Footer simple style */
+.site-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 4rem;
+  padding: 1rem 0;
+  border-top: 1px solid #ddd;
+}
+
+/* UT-orange accent for links */
+a, a:visited {
+  color: #BF5700;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #922D00;
+}
