@@ -3,13 +3,10 @@ description: "UT Austin | Fariborz Maseeh Department of Civil, Architectural and
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: default
 
-logo: /EER.jpg  # optional small logo in navbar
+logo: /EER.jpg
 
 plugins:
   - jekyll-include-cache
-
-include:
-  - _pages
 
 defaults:
   - scope:
