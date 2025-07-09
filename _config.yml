@@ -1,0 +1,20 @@
+title: "Sustainable Waste Resource Recovery Lab"
+description: "UT Austin | Fariborz Maseeh Department of Civil, Architectural and Environmental Engineering"
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+
+logo: /EER.jpg  # optional small logo in navbar
+
+plugins:
+  - jekyll-include-cache
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: false
