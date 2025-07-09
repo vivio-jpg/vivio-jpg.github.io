@@ -1,62 +1,28 @@
-:root {
-  --ut-orange: #BF5700;
-  --light-gray: #F7F7F7;
-  --card-bg: #FFFFFF;
-  --card-hover: #FFF3EA;
-}
-
-/* Page banner */
-.page‐banner {
+/* ── Top banner nav ───────────────────────────────── */
+.banner-nav {
   background: var(--ut-orange);
-  color: white;
-  text-align: center;
-  padding: 3rem 1rem;
+  padding: 0.5rem 0;
 }
-.page‐banner h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-.page‐banner p {
-  font-size: 1.1rem;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-/* Projects grid */
-.projects‐grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+.banner-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
   gap: 2rem;
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+}
+.banner-nav a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.banner-nav a:hover,
+.banner-nav a.active {
+  color: #000;
 }
 
-/* Individual project card */
-.project‐card {
-  background: var(--card-bg);
-  border-left: 6px solid var(--ut-orange);
-  padding: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  transition: background 0.3s, transform 0.2s;
-}
-.project‐card:hover {
-  background: var(--card-hover);
-  transform: translateY(-4px);
-}
-.project‐card h2 {
-  margin-top: 0;
+/* ── Section headings color override ─────────────── */
+h1, h2 {
   color: var(--ut-orange);
-  font-size: 1.4rem;
-}
-.project‐card p {
-  margin: 0.5rem 0;
-  color: #444;
-  line-height: 1.5;
-}
-
-/* Responsive tweak */
-@media (max-width: 600px) {
-  .page‐banner h1 { font-size: 2rem; }
-  .projects‐grid { gap: 1.2rem; }
 }
