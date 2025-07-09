@@ -1,13 +1,14 @@
+# _config.yml
 title: "Sustainable Waste Resource Recovery Lab"
-description: "UT Austin | Fariborz Maseeh Department of Civil, Architectural and Environmental Engineering"
+description: "UT Austin | Fariborz Maseeh Dept. of Civil, Architectural & Environmental Engineering"
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 
-include:
-  - assets/css/custom.css
-
 plugins:
   - jekyll-include-cache
+
+include:
+  - assets/css/custom.css
 
 defaults:
   - scope:
