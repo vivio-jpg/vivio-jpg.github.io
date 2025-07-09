@@ -2,7 +2,7 @@
 title: "Home"
 permalink: /
 header:
-  overlay_image: /assets/images/EER.jpg
+  overlay_image: /EER.jpg
   overlay_filter: 0.3
   caption: "Sustainable Waste Resource Recovery Lab at UT Austin"
 ---
