@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Home
 permalink: /
 ---
@@ -18,7 +18,7 @@ permalink: /
 
 <div class="section alt">
   <h2>Teaching Mission</h2>
-  <p>Training the next generation in chemical & biotech processes for wastewater and solid‐waste resource recovery.</p>
+  <p>Training the next generation in chemical & biotech processes for wastewater and solid-waste resource recovery.</p>
 </div>
 
 <div class="section">
