@@ -15,3 +15,4 @@ defaults:
     values:
       layout: single
       author_profile: false
+# rebuild trigger
